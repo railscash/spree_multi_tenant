@@ -41,7 +41,7 @@ module SpreeMultiTenant
       Spree::Taxon,
       Spree::TokenizedPermission,
       Spree::Tracker,
-      Spree::User,
+      #Spree::User,
       Spree::Variant,
       Spree::ZoneMember,
       Spree::Zone,
