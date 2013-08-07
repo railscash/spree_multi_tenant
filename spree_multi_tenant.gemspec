@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_core', '~> 2.0'
   s.add_dependency 'spree_auth_devise'
   s.add_dependency 'multitenant'
-
+  s.add_dependency 'cancan', '~> 1.6'
+  
   s.add_development_dependency 'capybara', '~> 1.1.0'
   s.add_development_dependency 'factory_girl'
   s.add_development_dependency 'ffaker'
