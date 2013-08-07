@@ -72,10 +72,11 @@ module SpreeMultiTenant
 
   def self.tenanted_controllers
     [
-      Spree::BaseController,
-      Spree::UserPasswordsController,
-      Spree::UserSessionsController,
-      Spree::UserRegistrationsController
+      Spree::BaseController
+      #,
+      #Spree::UserPasswordsController,
+      #Spree::UserSessionsController,
+      #Spree::UserRegistrationsController
     ]
   end
 
